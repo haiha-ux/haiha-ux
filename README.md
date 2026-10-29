@@ -11,6 +11,7 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 **Selected public work**
 | Repo | What |
 |---|---|
+| [yolo-tensorrt-edge](https://github.com/haiha-ux/yolo-tensorrt-edge) | YOLO → ONNX → TensorRT FP32/FP16/INT8 with a reproducible latency vs COCO-accuracy benchmark |
 | [ttihp-snn-ascon](https://github.com/haiha-ux/ttihp-snn-ascon) | NIST Ascon-128 AEAD crypto core in Verilog for the Tiny Tapeout IHP 26a shuttle (130 nm, ~6K cells) |
 | [circuit-op](https://github.com/haiha-ux/circuit-op) | Automatic circuit discovery with graph neural networks and reinforcement learning |
 | [electric-fox](https://github.com/haiha-ux/electric-fox) | Electric VLSI design system fork: 3D visualisation, analog layout synthesis, Java 17 |
