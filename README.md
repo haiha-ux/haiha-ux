@@ -23,5 +23,3 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 - M.Eng. candidate, Electronics Engineering, Ho Chi Minh City University of Technology
 
 **Tools** Python · C/C++ · PyTorch · TensorRT · ONNX Runtime · OpenCV · QNN/QAIRT · CUDA · ROS 2 · PX4 · Docker · SystemVerilog
-
-Available for freelance edge-AI and computer-vision work (written, async collaboration).
