@@ -19,9 +19,6 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 | [pcb-sample-preamp](https://github.com/haiha-ux/pcb-sample-preamp) | 2-channel 48V phantom-powered mic preamp (INA163): KiCad schematic, hand-routed 2-layer PCB, ERC/DRC clean, BOM, Gerbers |
 | [cad-sample-tests](https://github.com/haiha-ux/cad-sample-tests) | 2D CAD drafting: ISO mechanical part drawing (3 views, section A-A, tolerances) and a 1:50 floor plan, delivered as DXF/DWG/PDF |
 | [ttihp-snn-ascon](https://github.com/haiha-ux/ttihp-snn-ascon) | NIST Ascon-128 AEAD crypto core in Verilog for the Tiny Tapeout IHP 26a shuttle (130 nm, ~6K cells) |
-| [circuit-op](https://github.com/haiha-ux/circuit-op) | Automatic circuit discovery with graph neural networks and reinforcement learning |
-| [electric-fox](https://github.com/haiha-ux/electric-fox) | Electric VLSI design system fork: 3D visualisation, analog layout synthesis, Java 17 |
-| [verdict-prereg](https://github.com/haiha-ux/verdict-prereg) | Pre-registered study: label-free threshold re-setting under image shift |
 
 **In the field**
 - AI engineer in a city-scale drone pilot with Hanoi Police for traffic and urban-order monitoring (2026) — [Lao Động](https://news.laodong.vn/xa-hoi/tuan-tra-bang-uav-buoc-tien-huong-toi-do-thi-an-toan-hien-dai-1742963.ldo), [An ninh Thủ đô](https://anninhthudo.vn/cong-an-ha-noi-tuan-tra-bang-uav-make-in-viet-nam-dot-pha-quan-tri-giao-thong-va-trat-tu-do-thi-post660666.antd)
