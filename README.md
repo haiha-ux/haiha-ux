@@ -16,6 +16,7 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 | [yolo-tensorrt-edge](https://github.com/haiha-ux/yolo-tensorrt-edge) | YOLO → ONNX → TensorRT FP32/FP16/INT8 with a reproducible latency vs COCO-accuracy benchmark |
 | [camera-calibration-report](https://github.com/haiha-ux/camera-calibration-report) | Pinhole, fisheye and stereo calibration with held-out reprojection/epipolar error on public data |
 | [object-tracking-bench](https://github.com/haiha-ux/object-tracking-bench) | YOLO11 + ByteTrack/BoT-SORT on MOT17 with HOTA/MOTA/IDF1, PyTorch vs TensorRT FP16, per-track speed |
+| [ros2-trt-detector](https://github.com/haiha-ux/ros2-trt-detector) | ROS 2 Jazzy node: TensorRT YOLO on a camera topic → vision_msgs detections, 30 Hz at 640/1280 with 14–19 ms median latency |
 | [libero-vla-repro](https://github.com/haiha-ux/libero-vla-repro) | Reproduction of SmolVLA (flow matching) vs pi0-FAST (tokenized actions) on LIBERO, with CIs, latency and a gap-vs-paper analysis |
 | [pcb-sample-preamp](https://github.com/haiha-ux/pcb-sample-preamp) | 2-channel 48V phantom-powered mic preamp (INA163): KiCad schematic, hand-routed 2-layer PCB, ERC/DRC clean, BOM, Gerbers |
 | [cad-sample-tests](https://github.com/haiha-ux/cad-sample-tests) | 2D CAD drafting: ISO mechanical part drawing (3 views, section A-A, tolerances) and a 1:50 floor plan, delivered as DXF/DWG/PDF |
