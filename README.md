@@ -10,8 +10,9 @@ The repos below are things I built to measure something properly. Each one has t
 | [object-tracking-bench](https://github.com/haiha-ux/object-tracking-bench) | ByteTrack and BoT-SORT on MOT17, scored with HOTA, MOTA and IDF1, PyTorch against TensorRT. |
 | [camera-calibration-report](https://github.com/haiha-ux/camera-calibration-report) | Pinhole, fisheye and stereo calibration, judged on held-out images rather than the training error. |
 | [libero-vla-repro](https://github.com/haiha-ux/libero-vla-repro) | Two robot policies (SmolVLA and pi0-FAST) re-run on the LIBERO benchmark, with confidence intervals and an honest look at why one fell short of its paper. |
+| [pcb-rp2040-usbc](https://github.com/haiha-ux/pcb-rp2040-usbc) | A four-layer RP2040 board with USB-C, a 90 ohm USB pair and JLCPCB fab files, plus a 2x2 panel and a DFM check against the fab's published limits. |
 | [pcb-sample-preamp](https://github.com/haiha-ux/pcb-sample-preamp) | A two-channel phantom-powered microphone preamp in KiCad, checked against the TI datasheet, with hand-routed inputs and fab files. |
-| [cad-sample-tests](https://github.com/haiha-ux/cad-sample-tests) | A mechanical part drawing and a 1:50 floor plan, delivered as DXF, DWG and PDF. |
+| [cad-sample-tests](https://github.com/haiha-ux/cad-sample-tests) | A mechanical part drawing, a 1:50 floor plan, and a 1921 scanned drawing redrawn to its printed dimensions and overlaid on the original, delivered as DXF, DWG and PDF. |
 | [ttihp-snn-ascon](https://github.com/haiha-ux/ttihp-snn-ascon) | An Ascon-128 crypto core in Verilog, submitted to the Tiny Tapeout IHP 26a shuttle (130 nm). |
 
 Outside of these: in 2026 I was the AI engineer on a city-scale drone pilot for traffic and urban-order monitoring in Hanoi ([Lao Động](https://news.laodong.vn/xa-hoi/tuan-tra-bang-uav-buoc-tien-huong-toi-do-thi-an-toan-hien-dai-1742963.ldo), [An ninh Thủ đô](https://anninhthudo.vn/cong-an-ha-noi-tuan-tra-bang-uav-make-in-viet-nam-dot-pha-quan-tri-giao-thong-va-trat-tu-do-thi-post660666.antd)), and I co-authored MARS, a small multi-task Mamba model for mapless UAV navigation (IAAA 2026, Springer LNNS).
