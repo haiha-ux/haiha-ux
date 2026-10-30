@@ -6,7 +6,8 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 - **Edge deployment** — PyTorch → ONNX → TensorRT (Jetson), Qualcomm NPU (QNN/QAIRT), Xilinx Vitis-AI; INT8/INT16 quantization with accuracy checks before and after
 - **Multi-camera geometry** — fisheye/stereo calibration (intrinsics, extrinsics, camera–IMU), synchronised capture, 360° depth for obstacle avoidance
 - **Vision pipelines** — detection, tracking, segmentation; GStreamer/RTSP multi-camera streaming
-- **Hardware** — RTL (SystemVerilog/Verilog), Tiny Tapeout ASIC design, FPGA CNN accelerators
+- **Robot learning** — running and evaluating VLA policies (LeRobot, LIBERO)
+- **Hardware** — KiCad schematic/PCB, RTL (SystemVerilog · KiCad · LeRobot/Verilog), Tiny Tapeout ASIC design, FPGA CNN accelerators
 
 **Selected public work**
 | Repo | What |
@@ -14,10 +15,11 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 | [yolo-tensorrt-edge](https://github.com/haiha-ux/yolo-tensorrt-edge) | YOLO → ONNX → TensorRT FP32/FP16/INT8 with a reproducible latency vs COCO-accuracy benchmark |
 | [camera-calibration-report](https://github.com/haiha-ux/camera-calibration-report) | Pinhole, fisheye and stereo calibration with held-out reprojection/epipolar error on public data |
 | [object-tracking-bench](https://github.com/haiha-ux/object-tracking-bench) | YOLO11 + ByteTrack/BoT-SORT on MOT17 with HOTA/MOTA/IDF1, PyTorch vs TensorRT FP16, per-track speed |
+| [libero-vla-repro](https://github.com/haiha-ux/libero-vla-repro) | Reproduction of SmolVLA (flow matching) vs pi0-FAST (tokenized actions) on LIBERO, with CIs, latency and a gap-vs-paper analysis |
+| [pcb-sample-preamp](https://github.com/haiha-ux/pcb-sample-preamp) | 2-channel 48V phantom-powered mic preamp (INA163): KiCad schematic, hand-routed 2-layer PCB, ERC/DRC clean, BOM, Gerbers |
 | [ttihp-snn-ascon](https://github.com/haiha-ux/ttihp-snn-ascon) | NIST Ascon-128 AEAD crypto core in Verilog for the Tiny Tapeout IHP 26a shuttle (130 nm, ~6K cells) |
 | [circuit-op](https://github.com/haiha-ux/circuit-op) | Automatic circuit discovery with graph neural networks and reinforcement learning |
 | [electric-fox](https://github.com/haiha-ux/electric-fox) | Electric VLSI design system fork: 3D visualisation, analog layout synthesis, Java 17 |
-| [solo-prompts](https://github.com/haiha-ux/solo-prompts) | Claude Code plugin that orchestrates research/build agents |
 | [verdict-prereg](https://github.com/haiha-ux/verdict-prereg) | Pre-registered study: label-free threshold re-setting under image shift |
 
 **In the field**
@@ -25,4 +27,4 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 - Co-author, *MARS* — lightweight multi-task Mamba model for mapless UAV navigation (IAAA 2026, Springer LNNS)
 - M.Eng. candidate, Electronics Engineering, Ho Chi Minh City University of Technology
 
-**Tools** Python · C/C++ · PyTorch · TensorRT · ONNX Runtime · OpenCV · QNN/QAIRT · CUDA · ROS 2 · PX4 · Docker · SystemVerilog
+**Tools** Python · C/C++ · PyTorch · TensorRT · ONNX Runtime · OpenCV · QNN/QAIRT · CUDA · ROS 2 · PX4 · Docker · SystemVerilog · KiCad · LeRobot
