@@ -7,7 +7,7 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 - **Multi-camera geometry** — fisheye/stereo calibration (intrinsics, extrinsics, camera–IMU), synchronised capture, 360° depth for obstacle avoidance
 - **Vision pipelines** — detection, tracking, segmentation; GStreamer/RTSP multi-camera streaming
 - **Robot learning** — running and evaluating VLA policies (LeRobot, LIBERO)
-- **Hardware** — KiCad schematic/PCB, RTL (SystemVerilog/Verilog), Tiny Tapeout ASIC design, FPGA CNN accelerators
+- **Hardware** — KiCad schematic/PCB, 2D CAD drafting (DXF/DWG), RTL (SystemVerilog/Verilog), Tiny Tapeout ASIC design, FPGA CNN accelerators
 
 **Selected public work**
 | Repo | What |
@@ -17,6 +17,7 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 | [object-tracking-bench](https://github.com/haiha-ux/object-tracking-bench) | YOLO11 + ByteTrack/BoT-SORT on MOT17 with HOTA/MOTA/IDF1, PyTorch vs TensorRT FP16, per-track speed |
 | [libero-vla-repro](https://github.com/haiha-ux/libero-vla-repro) | Reproduction of SmolVLA (flow matching) vs pi0-FAST (tokenized actions) on LIBERO, with CIs, latency and a gap-vs-paper analysis |
 | [pcb-sample-preamp](https://github.com/haiha-ux/pcb-sample-preamp) | 2-channel 48V phantom-powered mic preamp (INA163): KiCad schematic, hand-routed 2-layer PCB, ERC/DRC clean, BOM, Gerbers |
+| [cad-sample-tests](https://github.com/haiha-ux/cad-sample-tests) | 2D CAD drafting: ISO mechanical part drawing (3 views, section A-A, tolerances) and a 1:50 floor plan, delivered as DXF/DWG/PDF |
 | [ttihp-snn-ascon](https://github.com/haiha-ux/ttihp-snn-ascon) | NIST Ascon-128 AEAD crypto core in Verilog for the Tiny Tapeout IHP 26a shuttle (130 nm, ~6K cells) |
 | [circuit-op](https://github.com/haiha-ux/circuit-op) | Automatic circuit discovery with graph neural networks and reinforcement learning |
 | [electric-fox](https://github.com/haiha-ux/electric-fox) | Electric VLSI design system fork: 3D visualisation, analog layout synthesis, Java 17 |
