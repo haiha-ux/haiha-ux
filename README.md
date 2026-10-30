@@ -7,7 +7,7 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 - **Multi-camera geometry** — fisheye/stereo calibration (intrinsics, extrinsics, camera–IMU), synchronised capture, 360° depth for obstacle avoidance
 - **Vision pipelines** — detection, tracking, segmentation; GStreamer/RTSP multi-camera streaming
 - **Robot learning** — running and evaluating VLA policies (LeRobot, LIBERO)
-- **Hardware** — KiCad schematic/PCB, RTL (SystemVerilog · KiCad · LeRobot/Verilog), Tiny Tapeout ASIC design, FPGA CNN accelerators
+- **Hardware** — KiCad schematic/PCB, RTL (SystemVerilog/Verilog), Tiny Tapeout ASIC design, FPGA CNN accelerators
 
 **Selected public work**
 | Repo | What |
