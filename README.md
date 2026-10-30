@@ -12,6 +12,7 @@ Computer Vision & Edge AI engineer in Ho Chi Minh City, Vietnam. I lead an AI te
 **Selected public work**
 | Repo | What |
 |---|---|
+| [multistream-trt-pipeline](https://github.com/haiha-ux/multistream-trt-pipeline) | Multi-camera RTSP → NVDEC → batched TensorRT YOLO → ByteTrack, end-to-end latency and FPS for 1–12 streams |
 | [yolo-tensorrt-edge](https://github.com/haiha-ux/yolo-tensorrt-edge) | YOLO → ONNX → TensorRT FP32/FP16/INT8 with a reproducible latency vs COCO-accuracy benchmark |
 | [camera-calibration-report](https://github.com/haiha-ux/camera-calibration-report) | Pinhole, fisheye and stereo calibration with held-out reprojection/epipolar error on public data |
 | [object-tracking-bench](https://github.com/haiha-ux/object-tracking-bench) | YOLO11 + ByteTrack/BoT-SORT on MOT17 with HOTA/MOTA/IDF1, PyTorch vs TensorRT FP16, per-track speed |
