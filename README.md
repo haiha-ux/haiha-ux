@@ -6,11 +6,12 @@ The repos below are things I built to measure something properly. Each one has t
 |---|---|
 | [multistream-trt-pipeline](https://github.com/haiha-ux/multistream-trt-pipeline) | Several RTSP cameras into one GPU: hardware decode, batched TensorRT YOLO, a tracker per camera. Latency per stage and total FPS from 1 to 12 streams. |
 | [ros2-trt-detector](https://github.com/haiha-ux/ros2-trt-detector) | A ROS 2 node that runs a TensorRT detector on a camera topic. Holds 30 Hz at 640 and 1280 input, 14 to 19 ms from image stamp to detections. |
-| [yolo-tensorrt-edge](https://github.com/haiha-ux/yolo-tensorrt-edge) | YOLO exported to ONNX and TensorRT at FP32, FP16 and INT8, with latency against COCO accuracy for each. |
+| [yolo-tensorrt-edge](https://github.com/haiha-ux/yolo-tensorrt-edge) ([try in browser](https://haiha-ux.github.io/yolo-tensorrt-edge/)) | YOLO exported to ONNX and TensorRT at FP32, FP16 and INT8, with latency against COCO accuracy for each. |
 | [object-tracking-bench](https://github.com/haiha-ux/object-tracking-bench) | ByteTrack and BoT-SORT on MOT17, scored with HOTA, MOTA and IDF1, PyTorch against TensorRT. |
 | [camera-calibration-report](https://github.com/haiha-ux/camera-calibration-report) | Pinhole, fisheye and stereo calibration, judged on held-out images rather than the training error. |
 | [libero-vla-repro](https://github.com/haiha-ux/libero-vla-repro) | Two robot policies (SmolVLA and pi0-FAST) re-run on the LIBERO benchmark, with confidence intervals and an honest look at why one fell short of its paper. |
-| [alphazero-connect4](https://github.com/haiha-ux/alphazero-connect4) | An AlphaZero-style Connect Four agent trained by self-play from random weights in 90 minutes, scored against minimax depth 1 to 6 at every checkpoint. |
+| [ppo-mujoco-control](https://github.com/haiha-ux/ppo-mujoco-control) | PPO written from scratch for MuJoCo Hopper, HalfCheetah and Walker2d, against Stable-Baselines3 over 3 seeds, with an observation-normalisation ablation. |
+| [alphazero-connect4](https://github.com/haiha-ux/alphazero-connect4) ([play in browser](https://haiha-ux.github.io/alphazero-connect4/)) | An AlphaZero-style Connect Four agent trained by self-play from random weights in 90 minutes, scored against minimax depth 1 to 6 at every checkpoint. |
 | [pcb-rp2040-usbc](https://github.com/haiha-ux/pcb-rp2040-usbc) | A four-layer RP2040 board with USB-C, a 90 ohm USB pair and JLCPCB fab files, plus a 2x2 panel and a DFM check against the fab's published limits. |
 | [pcb-sample-preamp](https://github.com/haiha-ux/pcb-sample-preamp) | A two-channel phantom-powered microphone preamp in KiCad, checked against the TI datasheet, with hand-routed inputs and fab files. |
 | [eagle-to-kicad-qwiic-button](https://github.com/haiha-ux/eagle-to-kicad-qwiic-button) | An open-source Eagle board (SparkFun Qwiic Button, CC BY-SA) migrated to KiCad 10, with every net and copper segment checked against the original. |
