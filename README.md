@@ -10,6 +10,7 @@ The repos below are things I built to measure something properly. Each one has t
 | [object-tracking-bench](https://github.com/haiha-ux/object-tracking-bench) | ByteTrack and BoT-SORT on MOT17, scored with HOTA, MOTA and IDF1, PyTorch against TensorRT. |
 | [camera-calibration-report](https://github.com/haiha-ux/camera-calibration-report) | Pinhole, fisheye and stereo calibration, judged on held-out images rather than the training error. |
 | [libero-vla-repro](https://github.com/haiha-ux/libero-vla-repro) | Two robot policies (SmolVLA and pi0-FAST) re-run on the LIBERO benchmark, with confidence intervals and an honest look at why one fell short of its paper. |
+| [alphazero-connect4](https://github.com/haiha-ux/alphazero-connect4) | An AlphaZero-style Connect Four agent trained by self-play from random weights in 90 minutes, scored against minimax depth 1 to 6 at every checkpoint. |
 | [pcb-rp2040-usbc](https://github.com/haiha-ux/pcb-rp2040-usbc) | A four-layer RP2040 board with USB-C, a 90 ohm USB pair and JLCPCB fab files, plus a 2x2 panel and a DFM check against the fab's published limits. |
 | [pcb-sample-preamp](https://github.com/haiha-ux/pcb-sample-preamp) | A two-channel phantom-powered microphone preamp in KiCad, checked against the TI datasheet, with hand-routed inputs and fab files. |
 | [eagle-to-kicad-qwiic-button](https://github.com/haiha-ux/eagle-to-kicad-qwiic-button) | An open-source Eagle board (SparkFun Qwiic Button, CC BY-SA) migrated to KiCad 10, with every net and copper segment checked against the original. |
