@@ -1,4 +1,4 @@
-I'm Hai, an engineer in Ho Chi Minh City. Most of my work is getting vision models to run correctly and fast on the hardware they will actually ship on. At my day job I work on perception for UAVs: multi-camera fisheye calibration, depth for obstacle avoidance, and quantized models on Qualcomm NPUs. I'm also doing an M.Eng. in electronics at Ho Chi Minh City University of Technology.
+I'm Hai, an engineer in Ho Chi Minh City. Most of my work is getting vision models to run correctly and fast on the hardware they will actually ship on. At my day job I work on perception for UAVs: multi-camera fisheye calibration, depth for obstacle avoidance, and quantized models on Qualcomm NPUs. I'm also doing a research master's in electronics engineering at Ho Chi Minh City University of Technology.
 
 The repos below are things I built to measure something properly. Each one has the raw numbers, the commands to reproduce them, and a section on what didn't work.
 
